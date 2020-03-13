@@ -14,7 +14,7 @@ if os.path.exists(os.path.join(os.getcwd(), "settings.json")):
 else:
     INDEX_SETTINGS = None
 
-if os.path.exists(os.path.join(os.getcwd(), "settings.json")):
+if os.path.exists(os.path.join(os.getcwd(), "mapping.json")):
     INDEX_MAPPING = json.load(
         open(os.path.exists(os.path.join(os.getcwd(), "mapping.json"))))
 else:
