@@ -13,6 +13,12 @@
 
 > **You can play with the kiban dev_tools to understand your queries**
 
+## LISA data
+
+LISA stands for Library and Information Science Abstracts
+
+Source and doc: [http://ir.dcs.gla.ac.uk/resources/test_collections/lisa/](http://ir.dcs.gla.ac.uk/resources/test_collections/lisa/)
+
 ## Manage Settings, Mappings and Query
 
 If files `settings.json` and / or `mapping.json` exists in this root project. They are load during the index building.
