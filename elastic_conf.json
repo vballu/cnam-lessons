@@ -1,5 +1,5 @@
 {
-    "index": None,
+    "index": "None",
     "elastic_host": "",
     "elastic_user": "",
     "elastic_pwd": ""

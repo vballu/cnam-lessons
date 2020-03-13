@@ -9,6 +9,10 @@
 1. Load elasticsearch with `python IR_Lisa_data_toot.py`
 1. Evaluate your result with `python IR_evaluate_lisa.py`
 
+> Another file `play_with_data.py` is like a sandbox. Letting you able to play with requests.
+
+> **You can play with the kiban dev_tools to understand your queries**
+
 ## Manage Settings, Mappings and Query
 
 If files `settings.json` and / or `mapping.json` exists in this root project. They are load during the index building.
