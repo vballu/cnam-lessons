@@ -24,14 +24,10 @@ INDEX_NAME = CONF["index"]
 
 
 def get_docs():
-"""
-    Load document from files
-"""
-
     doc_dic = dict()
 
     list_filenames = [file_name for file_name in os.listdir(
-       DOC_PATH) if re.match("LISA[0-9].*", file_name)]
+        DOC_PATH) if re.match("LISA[0-9].*", file_name)]
 
     prior_line = ""
 
@@ -63,12 +59,8 @@ def _bulk_wrapper(index_name, data_dic):
 
 
 def send2elastic(data_dic):
-"""
-    Send to elasticseach loaded data with wanted mapping and setting
-"""
-
     es_client = Elasticsearch(CONF["elastic_host"], http_auth=(CONF["elastic_user"], CONF["elastic_pwd"]), scheme="https",
-                            port=443)
+                              port=443)
 
     body = dict()
     if INDEX_SETTINGS is not None:
