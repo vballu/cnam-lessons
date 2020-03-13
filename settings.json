@@ -1,0 +1,12 @@
+{
+    "analysis": {
+        "analyzer": {
+            "default": {
+                "tokenizer": "whitespace",
+                "filter": [
+                    "stop"
+                ]
+            }
+        }
+    }
+}
