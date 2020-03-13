@@ -1,0 +1,14 @@
+{
+    "properties": {
+      "body": {
+        "type":     "text",
+        "analyzer": "standard", 
+        "fields": {
+          "english": {
+            "type":     "text",
+            "analyzer": "my_analaze_name" 
+          }
+        }
+      }
+    }
+  }

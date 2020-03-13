@@ -24,7 +24,7 @@ def es_search(query):
 
     template = Template(open(QUERY_TEMPLATE_PATH, 'r').read())
 
-    query_body = template.render(query=value)
+    query_body = template.render(query=query)
     es_res = es_client.search(index=INDEX_NAME, body=query_body)
     return es_res
 
@@ -36,7 +36,7 @@ def main():
     if len(sys.argv) != 2:
         raise "ONLY ONE PARAM ALLOWED !!\nUSAGE: %s 'phrase query'" % sys.argv[0]
     ret = es_search(sys.argv[1])
-    print ret
+    print(ret)
 
 
 if __name__ == "__main__":

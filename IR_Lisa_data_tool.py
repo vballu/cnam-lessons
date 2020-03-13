@@ -10,13 +10,13 @@ DOC_PATH = os.path.join(os.getcwd(), "lisa")
 # Load global variable
 if os.path.exists(os.path.join(os.getcwd(), "settings.json")):
     INDEX_SETTINGS = json.load(
-        open(os.path.exists(os.path.join(os.getcwd(), "settings.json"))))
+        open(os.path.join(os.getcwd(), "settings.json")))
 else:
     INDEX_SETTINGS = None
 
 if os.path.exists(os.path.join(os.getcwd(), "mapping.json")):
     INDEX_MAPPING = json.load(
-        open(os.path.exists(os.path.join(os.getcwd(), "mapping.json"))))
+        open(os.path.join(os.getcwd(), "mapping.json")))
 else:
     INDEX_MAPPING = None
 

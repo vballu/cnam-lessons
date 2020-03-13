@@ -1,7 +1,7 @@
 {
     "analysis": {
         "analyzer": {
-            "default": {
+            "my_analaze_name": {
                 "tokenizer": "whitespace",
                 "filter": [
                     "stop"
