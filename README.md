@@ -2,7 +2,7 @@
 
 ## Steb by steb run
 
-1. (optional) active a local en in this project
+1. (optional) active a local python environement in this project
 1. `pip install -r requirements.txt`
 1. `mkdir lisa && tar -C ./lisa -xf lisa.tar.gz`
 1. Open the `elastic_conf.json` file and fill empty fields
